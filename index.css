@@ -505,7 +505,7 @@ div.service-section div.sub-section a.btn:hover {
   transition: .2s;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 1024px) {
   div.service-section {
     width: 100%;
     display: flex;
