@@ -25,6 +25,7 @@ html, body {
 body {
   font-family: 'Urbanist', sans-serif;
   padding-top: 90px;
+  max-width: 100%;
 }
 
 nav {
@@ -106,9 +107,14 @@ nav label.checkbtn i.fa-times {
 }
 
 @media (max-width: 952px) {
+
   nav div.nav-link div.logo img {
     position: relative;
     top: -35px;
+  }
+
+  nav div.nav-link div.nav-menu ul {
+    overflow: visible;
   }
 
   nav div.nav-link div.nav-menu ul li a {
@@ -140,7 +146,7 @@ nav label.checkbtn i.fa-times {
 
   nav div.nav-link div.nav-menu ul li {
     list-style: none;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   nav div.nav-link div.nav-menu ul li a {
@@ -292,15 +298,20 @@ nav div.nav-link div.nav-menu ul li:active a {
   div.hero div.content p {
     font-size: 20px;
   }
+
+  .content .btn {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
 }
 
 @media (max-width: 427px) {
   div.hero div.content h1 {
-    font-size: 20px;
+    font-size: 21px;
   }
 
   div.hero div.content p {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
@@ -367,7 +378,6 @@ div.service-header p {
 }
 
 div.service-section {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 15px; /* optional spacing between items */
@@ -375,13 +385,14 @@ div.service-section {
 }
 
 div.service-sections div.service-section div.sub-section {
-  width: 20px;
+  width: 200px;
   height: 400px;
   position: relative;
   border-radius: 15px;
   flex: 0 1 calc(33.333% - 20px);
   color: #fff;
   margin-bottom: 45px;
+
 }
 
 div.service-sections div.service-section div.sub-section div.fade-section {
@@ -395,7 +406,7 @@ div.service-sections div.service-section div.sub-section div.fade-section {
 }
 
 div.service-sections div.service-section div.sub-section:hover div.fade-section div.fade-image {
-  width: 400px;
+  
   height: 400px;
   background: rgba(22, 22, 42, 0.8);
   border-radius: 15px;
@@ -494,118 +505,54 @@ div.service-section div.sub-section a.btn:hover {
   transition: .2s;
 }
 
-@media (max-width: 827px) {
-  div.service-sections div.service-section {
+@media(max-width: 870px) {
+  div.service-section {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   div.service-sections div.service-section div.sub-section {
-    width: 400px;
-    height: 500px;
-    margin: 30px auto 60px;
-  }
-}
-
-@media (max-width: 427px) {
-  div.service-sections div.service-section {
-    display: flex;
-    flex-direction: column;
-  }
-
-  div.service-sections div.service-section div.sub-section div.fade-section {
-    width: 400px;
+    width: 80%;
     height: 400px;
-    margin: 30px auto 60px;
-  }
-}
-
-@media (max-width: 380px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  
-
-  div.service-sections div.service-section {
-    width: 100%;
-    margin-right: 60px;
-    margin: 30px auto;
+    margin-bottom: 30px;
   }
 
   div.service-sections div.service-section div.sub-section div.fade-section {
-    width: 80%;
-    height: 65vh;
-    padding: 20px;
-    margin: 0px auto 60px;
-    position: relative;
-    left: -10px;
-  }
-
-  div.service-sections div.service-section div.sub-section div.fade-section .fade-image {
     width: 100%;
-    margin: 0px auto 60px;
-    position: relative;
-    left: -10px;
+    height: 400px;
+  }
 }
 
-  div.service-sections div.service-section div.sub-section div.fade-section:hover div.fade-image {
-    width: 115%;
-    height: 65vh;
-    padding: 20px;
-    left: -20px;
-    top: -20px;
+@media(max-width: 400px) {
+  div.service-section div.sub-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   
+  div.service-section div.sub-section p {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-bottom: 15px;
   }
-
-  div.service-section div.sub-section:hover div.fade-section div.fade-image div.sub-text {
-  color: #fff;
-  opacity: 1;
-}
-}
-
-@media (max-width: 340px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  div.service-sections div.service-section {
-    width: 100%;
   
-    margin-right: 60px;
-    margin: 30px auto;
+  div.service-section div.sub-section a.btn {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 20px;
+    opacity: 0.8;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing: 1px;
   }
-
-  div.service-sections div.service-section div.sub-section div.fade-section {
-    width: 80%;
-    height: 65vh;
-    margin: 0px auto 60px;
-    position: relative;
-    left: -40px;
-    border-radius: 0;
-  }
-
-  div.service-sections div.service-section div.sub-section div.fade-section .fade-image {
-    width: 100%;
-    margin: 0px auto 60px;
-    position: relative;
-    left: -10px;
-}
-
-  div.service-sections div.service-section div.sub-section div.fade-section:hover div.fade-image {
-    width: 115%;
-    height: 65vh;
-    padding: 20px;
-    left: -20px;
-    top: -20px;
-    border-radius: 0;
-  
-  }
-
-  div.service-section div.sub-section:hover div.fade-section div.fade-image div.sub-text {
-  color: #fff;
-  opacity: 1;
-}
 }
 
 div.contact-section {
@@ -697,7 +644,7 @@ div.contact-sub-section h3 {
 
 div.contact-section div.contact-sub-sections div.contact-sub-section i {
   font-size: 75px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 div.contact-section div.contact-sub-sections div.contact-sub-section a.btn {
@@ -730,8 +677,13 @@ div.contact-section div.contact-sub-sections div.contact-sub-section a.btn:hover
   div.contact-section div.contact-sub-sections {
     display: flex;
     flex-direction: column;
-    height: 160vh;
+    height: 170vh;
     margin: 0px auto 30px;
+  }
+
+  div.contact-section div.contact-sub-sections div.contact-sub-section a.btn {
+    font-size: 16px;
+    margin-bottom: 20px;
   }
 }
 
@@ -1256,7 +1208,7 @@ div.second-content .certificate {
   div.second-content {
     display: block;
     width: 100%;
-    height: 80vh;
+    height: 110vh;
     padding: 40px;
     margin-bottom: 75px;
   }
@@ -1288,7 +1240,7 @@ div.about-header {
 
 div.about-header h3{
   color: #fff;
-  opacity: 0.9;
+  opacity: 0.8;
   font-size: 55px;
   font-weight: 700;
 }
@@ -1322,7 +1274,7 @@ div.about-origin h3{
 
 div.about-origin p {
   width: 80%;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto;
   text-align: center;
 }
@@ -1644,7 +1596,7 @@ div.contact-sub-section h3 {
 
 div.contact-section2 div.contact-sub-sections div.contact-sub-section i {
   font-size: 75px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 div.contact-section2 div.contact-sub-sections div.contact-sub-section a.btn {
@@ -1672,7 +1624,8 @@ div.contact-section2 div.contact-sub-sections div.contact-sub-section a.btn:hove
     display: flex;
     flex-direction: column;
     height: 160vh;
-    margin: 0px auto 0px;
+    margin: 0px auto;
+    margin-bottom: 0px;
   }
 }
 
