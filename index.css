@@ -290,7 +290,7 @@ nav div.nav-link div.nav-menu ul li:active a {
   transition: all .5s;
 }
 
-@media (max-width: 827px) {
+@media (max-width: 900px) {
   div.hero div.content h1 {
     font-size: 32px;
   }
@@ -334,7 +334,7 @@ div.scrollUp{
     z-index: 28;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 900px) {
     div.scrollUp, div.scrollUp i {
         opacity: 0;
     }
@@ -769,7 +769,7 @@ div.info-sections div.info-link div.info-image div.inside-image img {
   opacity: 0.35;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
   div.info-sections {
     width: 100%;
     display: flex;
@@ -874,7 +874,7 @@ div.statement div.mission p {
   margin: 0 auto;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
   div.statement {
     margin-top: 70px;
     display: block;
@@ -1044,7 +1044,7 @@ footer p {
   color: #222;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
   footer {
     padding: 40px;
   }
@@ -1091,7 +1091,7 @@ footer p {
   overflow-y: hidden;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
 
   .contact_form {
     width: 100%;
@@ -1308,7 +1308,7 @@ div.three-sections div.three-section p {
   font-size: 16px;
 }
 
-@media(max-width:870px) {
+@media(max-width:900px) {
   div.three-sections {
     width: 100%;
     margin-top: 70px;
@@ -1446,7 +1446,7 @@ div.info-sections2 div.info-link div.info-image div.inside-image img {
   opacity: 0.35;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
   div.info-sections2 {
     width: 100%;
     display: flex;
@@ -1619,7 +1619,7 @@ div.contact-section2 div.contact-sub-sections div.contact-sub-section a.btn:hove
   color: #222;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
   div.contact-section2 div.contact-sub-sections {
     display: flex;
     flex-direction: column;
@@ -1848,7 +1848,7 @@ div.contact-section3 div.contact-sub-sections div.contact-sub-section a.btn:hove
   color: #222;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
 
   div.contact-section3 div.deal-section {
     height: 90vh;
@@ -1932,7 +1932,7 @@ div.auto-section div.auto-image {
   margin-top: 100px;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
 
   div.auto-header h3 {
     font-size: 26px;
@@ -2040,7 +2040,7 @@ div.cctv-section div.cctv-image {
   margin-top: 100px;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
 
   div.cctv-header h3 {
     font-size: 26px;
@@ -2149,7 +2149,7 @@ div.wire-section div.wire-image {
   margin-top: 100px;
 }
 
-@media(max-width: 870px) {
+@media(max-width: 900px) {
 
   div.wire-header h3 {
     font-size: 26px;
