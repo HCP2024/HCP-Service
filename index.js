@@ -96,12 +96,12 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(updateLiveClock, 1000); 
     
     
-$('a#podcast').click(function(e){
-  e.preventDefault()
-  alert('Sorry our team is currently working on this section and will be available. You can follow our social pages for the latest update. Thank you.')
-});
+// $('a#podcast').click(function(e){
+//   e.preventDefault()
+//   alert('Sorry our team is currently working on this section and will be available. You can follow our social pages for the latest update. Thank you.')
+// });
 
-('a.podcast').click(function(e){
-  e.preventDefault()
-  alert('Sorry our team is currently working on this section and will be available. You can follow our social pages for the latest update. Thank you.')
-});
+// ('a.podcast').click(function(e){
+//   e.preventDefault()
+//   alert('Sorry our team is currently working on this section and will be available. You can follow our social pages for the latest update. Thank you.')
+// });
